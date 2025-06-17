@@ -9,7 +9,7 @@ class CustomeCheeckException extends Exception
 }
 
 public class Demo7 {
-    public static void main(String[] args) {
+    public static void main(String[] args)throws CustomeCheeckException {
 
         check();
     }

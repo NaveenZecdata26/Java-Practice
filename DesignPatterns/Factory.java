@@ -37,6 +37,5 @@ public class Factory {
         Notification notification1 = NotificationFactory.getNotification("sms");
         notification1.notifyUser();;
         notification.notifyUser();
-
     }
 }

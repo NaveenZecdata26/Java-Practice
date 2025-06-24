@@ -49,8 +49,8 @@ public class Strategy {
         ridePayment.setPaymentStrategy(new CardPayment());
         ridePayment.pay(25000);
         ridePayment.setPaymentStrategy(new CashPayment());
-        ridePayment.pay(25000);
+        ridePayment.pay(35000);
         ridePayment.setPaymentStrategy(new UpiPayment());
-        ridePayment.pay(25000);
+        ridePayment.pay(45000);
     }
 }

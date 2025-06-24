@@ -27,8 +27,6 @@ final class A
 public class Demo {
     public static void main(String[] args) {
         A a = new A(10,20);
-
-
         System.out.println(a);
     }
 }
